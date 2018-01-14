@@ -1,0 +1,260 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.header {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 70%;
+  margin: 0 auto;
+  background: rgba(7, 17, 27, 0.4);
+}
+.header .wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+.header .wrapper .left {
+  flex: 0 0 500px;
+}
+.header .wrapper .left .img-wrapper {
+  display: inline-block;
+  height: 65px;
+  line-height: 65px;
+}
+.header .wrapper .left .img-wrapper img {
+  line-height: 65px;
+}
+.header .wrapper .left .title {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 65px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-family: "华文隶书";
+}
+.header .wrapper .right {
+  flex: 1;
+}
+.header .wrapper .right ul {
+  display: flex;
+}
+.header .wrapper .right li {
+  flex: 1;
+  display: inline-block;
+  font-size: 0.8em;
+}
+.header .wrapper .right li a {
+  display: inline-block;
+  line-height: 65px;
+}
+.header .wrapper .right li a:hover,
+.header .wrapper .right li a:active,
+.header .wrapper .right li .clicked {
+  color: #5B75B7;
+}
+.BigImg {
+  position: relative;
+}
+.BigImg .img-warpper {
+  width: 100%;
+  max-height: 400px;
+  height: 400px;
+}
+.BigImg .img-warpper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.BigImg .BigImg-wrapper {
+  position: absolute;
+  left: 27%;
+  top: 40%;
+  color: #FFF;
+  text-align: center;
+}
+.BigImg .BigImg-wrapper .p1 {
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 8px;
+}
+.BigImg .BigImg-wrapper .p2 {
+  font-size: 1.1em;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+.BigImg .BigImg-wrapper .p3 {
+  display: inline;
+  font-size: 0.5em;
+  padding: 3px 85px 6px 85px;
+  border-bottom: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+}
+.content {
+  flex: 1;
+  background-color: #FFF;
+  color: #000;
+}
+.content .content-wrapper {
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+.content .content-wrapper .left .menu-wrapper {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  background-color: #EDF1F4;
+}
+.content .content-wrapper .left .menu-wrapper .title {
+  margin: 0 auto;
+  text-align: center;
+}
+.content .content-wrapper .left .menu-wrapper .title .firstword {
+  display: inline-block;
+  font-size: 2.2em;
+  font-weight: bold;
+  line-height: 30px;
+}
+.content .content-wrapper .left .menu-wrapper .title div {
+  display: inline-block;
+}
+.content .content-wrapper .left .menu-wrapper .title div .name {
+  text-align: left;
+  line-height: 15px;
+  display: block;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+.content .content-wrapper .left .menu-wrapper ul {
+  width: 100%;
+  margin-top: 15px;
+}
+.content .content-wrapper .left .menu-wrapper ul li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+.content .content-wrapper .left .menu-wrapper ul li a {
+  line-height: 30px;
+  width: 100%;
+  display: block;
+  font-size: 0.8em;
+  color: #000;
+}
+.content .content-wrapper .left .menu-wrapper ul li a:hover,
+.content .content-wrapper .left .menu-wrapper ul li a:active {
+  background-color: #7392AE;
+  color: #FFF;
+}
+.content .content-wrapper .left .menu-wrapper ul li a:hover i {
+  visibility: visible;
+}
+.content .content-wrapper .left .menu-wrapper ul li i {
+  visibility: hidden;
+  font-size: 0.7em;
+  position: absolute;
+  right: 10px;
+  margin: auto 0;
+  line-height: 30px;
+}
+.content .content-wrapper .left .menu-wrapper ul li.clicked a {
+  background-color: #7392AE;
+  color: #FFF;
+}
+.content .content-wrapper .left .menu-wrapper ul li.clicked a i {
+  visibility: visible;
+}
+.content .content-wrapper .right {
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 30px;
+}
+.content .content-wrapper .right .title {
+  border-bottom: 1px solid #DADADA;
+  margin: 20px 0;
+  font-size: 0.7em;
+  padding-bottom: 5px;
+}
+.content .content-wrapper .right .title .pos_text {
+  font-weight: bold;
+}
+.content .content-wrapper .right .main {
+  margin-top: 30px;
+}
+.content .content-wrapper .right .student .title_1 {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.content .content-wrapper .right .student li {
+  margin-bottom: 20px;
+}
+.content .content-wrapper .right .student li .name {
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content .content-wrapper .right .student li table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.content .content-wrapper .right .student li th,
+.content .content-wrapper .right .student li td {
+  font-size: 0.7em;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 15px;
+}
+.content .content-wrapper .right .teacher .title_1 {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 15px 0 30px 0;
+  font-weight: bold;
+}
+.content .content-wrapper .right .teacher li {
+  margin-bottom: 40px;
+  display: flex;
+}
+.content .content-wrapper .right .teacher li div {
+  padding: 7px;
+  box-shadow: 0px 0px 3px rgba(197, 217, 227, 0.6);
+  borde: 1px solid #C7CBD1;
+  flex: 0 0 120px;
+  margin-right: 15px;
+  height: 150px;
+}
+.content .content-wrapper .right .teacher li div img {
+  display: block;
+  width: 100%;
+}
+.content .content-wrapper .right .teacher li p {
+  flex: 1;
+  font-size: 0.8em;
+  line-height: 20px;
+  text-indent: 2em;
+  padding: 12px 15px;
+  box-shadow: 0px 0px 3px rgba(197, 217, 227, 0.6);
+  borde: 1px solid #C7CBD1;
+}
+.footer {
+  font-size: 0.5em;
+  text-align: center;
+  line-height: 35px;
+  background-color: #2B3D6D;
+  color: #FFF;
+  width: 100%;
+  height: 35px;
+}

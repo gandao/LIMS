@@ -1,0 +1,131 @@
+.container{
+	display: flex;
+	min-height: 100vh;
+ 	flex-direction: column;
+}
+.header{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	top: 0;
+	width:70%;
+	margin: 0 auto;
+	background: rgba(7, 17,27,0.4);
+	.wrapper{
+		display: flex;
+		margin: 0 auto;
+		.left{
+			flex: 0 0 500px;
+			.img-wrapper{
+				display: inline-block;
+				height: 65px;
+				line-height: 65px;
+				img{
+					line-height: 65px;
+				}	
+			}
+			.title{
+				margin-left: 20px;
+					display: inline-block;
+					vertical-align: top;
+					line-height: 65px;
+					font-size: 1.6em;
+					font-weight: bold;
+					color:#FFF;
+					letter-spacing: 2px;
+					font-family: "华文隶书";
+				}
+		}
+		.right{
+			flex:1;
+			ul{
+				display: flex;
+			}
+			 li{ 
+			 	flex:1;
+				display: inline-block;
+				font-size: 0.8em;
+				a{
+					display: inline-block;
+					line-height: 65px;
+				}
+				a:hover,a:active,.clicked{
+					color:#5B75B7;
+				}
+			}
+		}
+	}
+}
+.BigImg{
+	position: relative;                  
+	.img-warpper{
+		width: 100%;
+		max-height: 400px;
+		height: 400px;
+		img{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.BigImg-wrapper{
+		position: absolute;
+		left: 27%;
+		top: 40%;
+		color:#FFF;
+		text-align: center;
+		.p1{
+			font-size: 1.9em;
+			font-weight: bold;
+			margin-bottom: 20px;
+			letter-spacing: 8px;
+		}
+		.p2{
+			font-size: 1.1em;
+			letter-spacing: 5px;
+			margin-bottom: 15px;
+		}
+		.p3{
+			display: inline;
+			font-size: 0.5em;
+			padding: 3px 85px 6px 85px;
+			border-bottom: 1px solid #FFF;
+			border-right: 1px solid #FFF;
+			border-left: 1px solid #FFF;
+		}
+	}
+}
+.content{
+	flex: 1;
+	background-color: #FFF;
+	color: #000;
+	.content-wrapper{
+		padding-bottom: 70px;	
+		width: 70%;
+		margin: 40px auto;
+		.title{
+			text-align: center;
+			font-size: 1.5em;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.detail{
+			text-align: center;
+			font-size: 0.7em;
+			font-weight: bold;
+			.author{
+				margin-right: 20px;
+			}
+		}
+	}
+}
+.footer{
+	font-size: 0.5em;
+	text-align: center;
+	line-height: 35px;
+	background-color: #2B3D6D;
+	color: #FFF;
+	width: 100%;
+	height:35px;
+}
