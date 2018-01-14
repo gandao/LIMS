@@ -84,11 +84,11 @@ $(function(){
 				}
 				newProject.members = membres;
 				if(index === 1){
-					alert("项目信息不完整，请核查后再提交！");
+					// alert("项目信息不完整，请核查后再提交！");
 				}
 				else {
 					let Is_submit = confirm("确认要提交吗？");
-					alert("提交成功!");
+					// alert("提交成功!");
 				}
 				return false;
 			});

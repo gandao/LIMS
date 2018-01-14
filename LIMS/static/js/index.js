@@ -11,12 +11,12 @@ $(function(){
 			contentType:"application/json", 
 
 			success:function(data){
-               console.log(data);
+            //    console.log(data);
                initdata(data,dir)
             },
              error: function(XMLHttpRequest, textStatus, errorThrown) {
 			//  alert(XMLHttpRequest.status + ' ' + XMLHttpRequest.readyState + ' ' + textStatus);
-				alert('获取数据失败！');
+				// alert('获取数据失败！');
 			}
 		});
 	};
@@ -24,7 +24,7 @@ $(function(){
 		let $LabNews = $(".content .news_one ul");
 		let $StudyNews = $(".content .news_two ul");
 		let datas = JSON.parse(data);
-		console.log(datas);
+		// console.log(datas);
 		if(datas !== undefined || datas !== null){
 			if(dir === 1){
 				for(let i in datas){

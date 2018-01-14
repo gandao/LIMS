@@ -50,10 +50,10 @@ $(function(){
 				success:function(data){
 				   status = 0;
 	               all_data = JSON.parse(data);
-	               console.log(all_data);
+	            //    console.log(all_data);
 	            },
 	             error: function(XMLHttpRequest, textStatus, errorThrown) {
-				 alert(XMLHttpRequest.status + ' ' + XMLHttpRequest.readyState + ' ' + textStatus);
+				//  alert(XMLHttpRequest.status + ' ' + XMLHttpRequest.readyState + ' ' + textStatus);
 				 status = 1;
 				}
 			});
