@@ -5,8 +5,8 @@
   
 ## 二、内容展示
 ### 1.主页
-![baidu](https://github.com/gandao/LIMS/static/img/readme_img/1.png "主页")
+![baidu](https://github.com/gandao/LIMS/blob/master/LIMS/static/img/readme_img/1.png "主页")
 ### 2.新闻列表
-![baidu](https://github.com/gandao/LIMS/static/img/readme_img/2.png "新闻列表")
+![baidu](https://github.com/gandao/LIMS/blob/master/LIMS/static/img/readme_img/2.png "新闻列表")
 ### 3.个人中心
-![baidu](https://github.com/gandao/LIMS/static/img/readme_img/4.png "个人中心")
+![baidu](https://github.com/gandao/LIMS/blob/master/LIMS/static/img/readme_img/4.png "个人中心")
